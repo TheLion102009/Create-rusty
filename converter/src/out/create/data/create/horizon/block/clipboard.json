@@ -1,0 +1,34 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 2.0,
+    "requires_tool": false,
+    "sounds": "minecraft:stripped_spruce_wood"
+  },
+  "state_properties": {
+    "face": {
+      "type": "enum",
+      "values": [
+        "floor",
+        "ceiling",
+        "wall"
+      ]
+    },
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    },
+    "written": {
+      "type": "boolean"
+    }
+  }
+}

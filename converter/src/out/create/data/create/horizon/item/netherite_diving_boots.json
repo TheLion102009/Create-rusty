@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:netherite_boots",
+  "components": {
+    "minecraft:max_damage": 481
+  }
+}

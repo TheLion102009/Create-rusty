@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:white_wool",
+    "map_color": 26
+  },
+  "item": false
+}

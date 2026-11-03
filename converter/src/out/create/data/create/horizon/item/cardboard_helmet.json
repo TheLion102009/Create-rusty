@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:leather_helmet",
+  "components": {
+    "minecraft:max_damage": 44
+  }
+}

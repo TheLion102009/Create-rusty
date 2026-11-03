@@ -1,0 +1,10 @@
+{
+  "template": "minecraft:honey_bottle",
+  "max_stack_size": 16,
+  "components": {
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation": 1.2
+    }
+  }
+}

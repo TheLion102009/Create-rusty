@@ -1,0 +1,36 @@
+{
+  "template": "minecraft:lightning_rod",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:netherite_block",
+    "light": 0,
+    "random_ticks": false
+  },
+  "shapes": {
+    "default": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "state_properties": {
+    "axis_along_first": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enum",
+      "values": [
+        "cog",
+        "pipe",
+        "shaft"
+      ]
+    }
+  }
+}

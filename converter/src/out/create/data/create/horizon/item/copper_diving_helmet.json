@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:copper_helmet",
+  "components": {
+    "minecraft:max_damage": 77
+  }
+}

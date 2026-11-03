@@ -1,0 +1,24 @@
+{
+  "template": "minecraft:lightning_rod",
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 2.0,
+    "requires_tool": false,
+    "sounds": "minecraft:scaffolding",
+    "map_color": 10,
+    "light": 0,
+    "random_ticks": false
+  },
+  "shapes": {
+    "default": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ]
+  }
+}

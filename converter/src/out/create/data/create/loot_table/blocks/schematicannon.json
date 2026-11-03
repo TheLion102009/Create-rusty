@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:schematicannon",
+          "modifier": [
+            {
+              "source": "block_entity",
+              "include": [
+                "create:schematicannon_options"
+              ],
+              "type": "minecraft:copy_components"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ],
+  "random_sequence": "create:blocks/schematicannon"
+}

@@ -1,0 +1,29 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 3.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:copper_block",
+    "map_color": 30
+  },
+  "state_properties": {
+    "shape": {
+      "type": "enum",
+      "values": [
+        "single",
+        "double",
+        "double_connected"
+      ]
+    },
+    "size": {
+      "type": "enum",
+      "values": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  },
+  "item": false
+}

@@ -1,0 +1,18 @@
+{
+  "template": "minecraft:quartz_pillar",
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 2.0,
+    "requires_tool": false,
+    "sounds": "minecraft:stripped_spruce_wood",
+    "map_color": 48
+  },
+  "state_properties": {
+    "sticky_bottom": {
+      "type": "boolean"
+    },
+    "sticky_top": {
+      "type": "boolean"
+    }
+  }
+}

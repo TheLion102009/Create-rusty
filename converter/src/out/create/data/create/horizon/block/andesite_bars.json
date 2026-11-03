@@ -1,0 +1,9 @@
+{
+  "template": "minecraft:iron_bars",
+  "properties": {
+    "hardness": 5.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": false,
+    "sounds": "minecraft:iron_block"
+  }
+}

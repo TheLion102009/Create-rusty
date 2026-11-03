@@ -1,0 +1,42 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 0.8,
+    "explosion_resistance": 0.8,
+    "requires_tool": true,
+    "sounds": "minecraft:iron_block",
+    "map_color": 6
+  },
+  "state_properties": {
+    "shape": {
+      "type": "enum",
+      "values": [
+        "none",
+        "ae",
+        "an",
+        "as",
+        "aw",
+        "cr_d",
+        "cr_ndx",
+        "cr_ndz",
+        "cr_o",
+        "cr_pdx",
+        "cr_pdz",
+        "nd",
+        "pd",
+        "te",
+        "tn",
+        "ts",
+        "tw",
+        "xo",
+        "zo"
+      ]
+    },
+    "turn": {
+      "type": "boolean"
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": false,
+    "sounds": "minecraft:andesite"
+  },
+  "state_properties": {
+    "double_face": {
+      "type": "enum",
+      "values": [
+        "floor",
+        "ceiling",
+        "wall",
+        "wall_reversed"
+      ]
+    },
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  },
+  "item": false
+}

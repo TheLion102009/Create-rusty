@@ -1,0 +1,47 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 0.8,
+    "explosion_resistance": 0.8,
+    "requires_tool": true,
+    "sounds": "minecraft:white_wool",
+    "map_color": 21
+  },
+  "state_properties": {
+    "casing": {
+      "type": "boolean"
+    },
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "part": {
+      "type": "enum",
+      "values": [
+        "start",
+        "end",
+        "middle",
+        "pulley"
+      ]
+    },
+    "slope": {
+      "type": "enum",
+      "values": [
+        "downward",
+        "horizontal",
+        "sideways",
+        "upward",
+        "vertical"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  },
+  "item": false
+}

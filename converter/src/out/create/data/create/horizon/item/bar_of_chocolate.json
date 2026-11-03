@@ -1,0 +1,9 @@
+{
+  "template": "minecraft:cookie",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation": 3.6
+    }
+  }
+}

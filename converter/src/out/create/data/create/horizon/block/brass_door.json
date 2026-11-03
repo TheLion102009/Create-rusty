@@ -1,0 +1,16 @@
+{
+  "template": "minecraft:copper_door",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite",
+    "map_color": 40,
+    "random_ticks": false
+  },
+  "state_properties": {
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

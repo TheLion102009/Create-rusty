@@ -1,0 +1,37 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite",
+    "map_color": 11
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "powered": {
+      "type": "boolean"
+    },
+    "shape": {
+      "type": "enum",
+      "values": [
+        "extended",
+        "pulling",
+        "pushing",
+        "retracted"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  },
+  "item": false
+}

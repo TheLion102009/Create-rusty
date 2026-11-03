@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:cut_copper",
+  "properties": {
+    "random_ticks": false
+  }
+}

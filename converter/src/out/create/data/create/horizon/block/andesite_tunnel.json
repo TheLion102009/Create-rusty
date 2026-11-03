@@ -1,0 +1,30 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite",
+    "map_color": 11
+  },
+  "state_properties": {
+    "axis": {
+      "type": "enum",
+      "values": [
+        "x",
+        "z"
+      ]
+    },
+    "shape": {
+      "type": "enum",
+      "values": [
+        "straight",
+        "closed",
+        "cross",
+        "t_left",
+        "t_right",
+        "window"
+      ]
+    }
+  }
+}

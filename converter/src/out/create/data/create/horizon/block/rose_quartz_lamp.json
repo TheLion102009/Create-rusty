@@ -1,0 +1,21 @@
+{
+  "template": "minecraft:quartz_block",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite",
+    "map_color": 42
+  },
+  "state_properties": {
+    "activate": {
+      "type": "boolean"
+    },
+    "powered": {
+      "type": "boolean"
+    },
+    "powering": {
+      "type": "boolean"
+    }
+  }
+}

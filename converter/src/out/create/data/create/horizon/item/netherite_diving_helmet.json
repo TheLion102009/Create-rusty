@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:netherite_helmet",
+  "components": {
+    "minecraft:max_damage": 407
+  }
+}

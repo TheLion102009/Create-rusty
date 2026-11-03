@@ -1,0 +1,19 @@
+{
+  "template": "minecraft:stone",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:chiseled_bookshelf",
+    "map_color": 26
+  },
+  "state_properties": {
+    "axis": {
+      "type": "enum",
+      "values": [
+        "x",
+        "z"
+      ]
+    }
+  }
+}

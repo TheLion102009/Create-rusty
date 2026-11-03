@@ -1,0 +1,28 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite"
+  },
+  "state_properties": {
+    "backwards": {
+      "type": "boolean"
+    },
+    "shape": {
+      "type": "enum",
+      "values": [
+        "ascending_east",
+        "ascending_north",
+        "ascending_south",
+        "ascending_west",
+        "east_west",
+        "north_south"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  }
+}

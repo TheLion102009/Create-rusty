@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "count": 9,
+      "id": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "count": 9,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    "#c:storage_blocks/raw_osmium"
+  ],
+  "processing_time": 400
+}

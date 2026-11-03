@@ -1,0 +1,38 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 1.5,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:andesite",
+    "map_color": 21
+  },
+  "state_properties": {
+    "backwards": {
+      "type": "boolean"
+    },
+    "powered": {
+      "type": "boolean"
+    },
+    "rail_type": {
+      "type": "enum",
+      "values": [
+        "regular",
+        "activator_rail",
+        "controller_rail",
+        "detector_rail",
+        "powered_rail"
+      ]
+    },
+    "shape": {
+      "type": "enum",
+      "values": [
+        "east_west",
+        "north_south"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  }
+}

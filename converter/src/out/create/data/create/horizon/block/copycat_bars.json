@@ -1,0 +1,24 @@
+{
+  "template": "minecraft:lightning_rod",
+  "properties": {
+    "hardness": 5.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:iron_block",
+    "light": 0,
+    "random_ticks": false
+  },
+  "shapes": {
+    "default": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "item": false
+}

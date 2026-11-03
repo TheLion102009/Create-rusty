@@ -1,0 +1,22 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 3.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:netherite_block",
+    "map_color": 34
+  },
+  "state_properties": {
+    "powered": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enum",
+      "values": [
+        "cross_signal",
+        "entry_signal"
+      ]
+    }
+  }
+}

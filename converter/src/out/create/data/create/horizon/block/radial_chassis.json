@@ -1,0 +1,24 @@
+{
+  "template": "minecraft:quartz_pillar",
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 2.0,
+    "requires_tool": false,
+    "sounds": "minecraft:stripped_spruce_wood",
+    "map_color": 10
+  },
+  "state_properties": {
+    "sticky_east": {
+      "type": "boolean"
+    },
+    "sticky_north": {
+      "type": "boolean"
+    },
+    "sticky_south": {
+      "type": "boolean"
+    },
+    "sticky_west": {
+      "type": "boolean"
+    }
+  }
+}

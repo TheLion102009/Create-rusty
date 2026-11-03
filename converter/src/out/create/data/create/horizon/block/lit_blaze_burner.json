@@ -1,0 +1,20 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 3.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:gold_block",
+    "map_color": 22
+  },
+  "state_properties": {
+    "flame_type": {
+      "type": "enum",
+      "values": [
+        "regular",
+        "soul"
+      ]
+    }
+  },
+  "item": false
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:yellow_toolbox",
+          "modifier": [
+            {
+              "source": "block_entity",
+              "type": "minecraft:copy_name"
+            },
+            {
+              "source": "block_entity",
+              "include": [
+                "create:toolbox_uuid",
+                "create:toolbox_inventory"
+              ],
+              "type": "minecraft:copy_components"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ],
+  "random_sequence": "create:blocks/yellow_toolbox"
+}

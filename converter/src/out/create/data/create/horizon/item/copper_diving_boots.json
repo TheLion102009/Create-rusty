@@ -1,0 +1,6 @@
+{
+  "template": "minecraft:copper_boots",
+  "components": {
+    "minecraft:max_damage": 91
+  }
+}

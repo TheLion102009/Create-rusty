@@ -1,0 +1,35 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 3.0,
+    "explosion_resistance": 6.0,
+    "requires_tool": true,
+    "sounds": "minecraft:copper_block",
+    "map_color": 30
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "powered": {
+      "type": "boolean"
+    },
+    "size": {
+      "type": "enum",
+      "values": [
+        "small",
+        "large",
+        "medium"
+      ]
+    },
+    "wall": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Written by create-horizon from the Create source tree; do not edit by hand.
+id = "create"
+name = "Create"
+version = "6.0.11-horizon.1"
+description = "Create's blocks, items, recipes and ore for Horizon (content only: the machines need the native mod)"
+authors = ["simibubi", "The Create Team"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

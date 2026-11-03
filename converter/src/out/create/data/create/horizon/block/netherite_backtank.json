@@ -1,0 +1,24 @@
+{
+  "template": "minecraft:glass",
+  "properties": {
+    "hardness": 50.0,
+    "explosion_resistance": 1200.0,
+    "requires_tool": true,
+    "sounds": "minecraft:netherite_block"
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "waterlogged": {
+      "type": "boolean"
+    }
+  },
+  "item": false
+}

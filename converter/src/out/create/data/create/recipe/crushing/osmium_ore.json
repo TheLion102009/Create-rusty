@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "id": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "id": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    "#c:ores/osmium"
+  ],
+  "processing_time": 400
+}

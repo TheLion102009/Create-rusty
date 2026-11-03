@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:waxed_copper_tile_slab",
+          "modifier": [
+            {
+              "add": false,
+              "type": "minecraft:set_count",
+              "count": 2.0,
+              "condition": {
+                "block": "create:waxed_copper_tile_slab",
+                "properties": {
+                  "type": "double"
+                },
+                "type": "minecraft:block_state_property"
+              }
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "create:blocks/waxed_copper_tile_slab"
+}

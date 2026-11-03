@@ -1,0 +1,14 @@
+# Create for Horizon, native half: a trait mod (docs/native-mods.md, "Trait mods").
+# Build it into a game with
+#   horizon-launcher native-build <this folder> --instance <instance> --trust-native-code
+# together with the content mod that `create-horizon --animated` writes.
+[mod]
+id = "create"
+version = "0.1.0"
+
+# The trait API it is written against: Horizon main of 2026-11-03.
+[compatibility]
+horizon_revision = "f42ef42ef6ceccb3c6a20bea2481d87949a51c81"
+
+[api]
+path = "api"
